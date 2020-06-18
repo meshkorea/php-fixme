@@ -18,6 +18,6 @@ class ModelCreated
     {
         $event->model->ingoing()->save(new Ingoing);
 
-        Thumb::makeThumb ($event->model);
+        //Thumb::makeThumb ($event->model);
     }
 }

@@ -16,7 +16,7 @@ class PostUpdated
     public function handle(EventPostUpdated $event)
     {
         if($event->model->wasChanged ('image')) {
-            Thumb::makeThumb ($event->model);
+            //Thumb::makeThumb ($event->model);
         }
     }
 }
