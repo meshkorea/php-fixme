@@ -20,6 +20,9 @@
 // Home
 Route::name('home')->get('/', 'Front\PostController@index');
 
+// Refactoring
+Route::name('refactoring')->get('/need-a-diet', 'FatController@diet');
+
 // Contact
 Route::resource('contacts', 'Front\ContactController', ['only' => ['create', 'store']]);
 
