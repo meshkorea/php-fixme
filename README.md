@@ -1,3 +1,9 @@
+## Refactoring 과제
+
+이 프로젝트는 [bestmomo/laravel5-5-example](https://github.com/bestmomo/laravel5-5-example)을 기초로 합니다.
+DB는 편의상 sqlite에서 동작하도록 설정합니다.
+아래 [Installation](#installation)을 따라 초기화 하신 후, `php artisan serve`로 샘플 페이지를 구동하실 수 있습니다.
+
 ## Laravel 5-5 example ##
 
 **Laravel 5-5 example** is a tutorial application.
@@ -7,16 +13,9 @@
 * type `git clone https://github.com/bestmomo/laravel5-5-example.git projectname` to clone the repository 
 * type `cd projectname`
 * type `composer install`
-* type `composer update`
 * copy *.env.example* to *.env*
 * type `php artisan key:generate`to generate secure key in *.env* file
-* if you use MySQL in *.env* file :
-   * set DB_CONNECTION
-   * set DB_DATABASE
-   * set DB_USERNAME
-   * set DB_PASSWORD
-* if you use sqlite :
-   * type `touch database/database.sqlite` to create the file
+* type `touch database/database.sqlite` to create the file
 * type `php artisan vendor:publish --provider="Bestmomo\LaravelEmailConfirmation\ServiceProvider" --tag="confirmation:migrations"` to publish email confirmation migration
 * type `php artisan migrate --seed` to create and populate tables
 * edit *.env* for emails configuration
