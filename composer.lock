@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "34063f92975a115066e29049c7b710d2",
+    "content-hash": "245389177656b640d4adfae62df9ac8d",
     "packages": [
         {
             "name": "barryvdh/elfinder-flysystem-driver",
@@ -3497,6 +3497,10 @@
                 "phpstorm",
                 "sublime"
             ],
+            "support": {
+                "issues": "https://github.com/barryvdh/laravel-ide-helper/issues",
+                "source": "https://github.com/barryvdh/laravel-ide-helper/tree/v2.6.6"
+            },
             "time": "2019-10-30T20:53:27+00:00"
         },
         {
@@ -6277,5 +6281,6 @@
     "platform": {
         "php": "^7.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
