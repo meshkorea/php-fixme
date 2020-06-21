@@ -23,7 +23,7 @@ class FatController extends Controller
           ]
         }
      */
-    public function diet(Request $request)
+    public function howToLoseWeight(Request $request)
     {
         $is_rich        = in_array('rich',          $request->get('life_style_tag'));
         $is_strong_will = in_array('strong_will',   $request->get('life_style_tag'));

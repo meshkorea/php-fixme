@@ -21,7 +21,7 @@
 Route::name('home')->get('/', 'Front\PostController@index');
 
 // Refactoring
-Route::name('refactoring')->get('/need-a-diet', 'FatController@diet');
+Route::name('refactoring')->get('/how-to-lose-weight', 'FatController@howToLoseWeight');
 
 // Contact
 Route::resource('contacts', 'Front\ContactController', ['only' => ['create', 'store']]);
